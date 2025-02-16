@@ -1,1 +1,1 @@
-console.log(day 2 DoDev)
+console.log("day 2 DoDev");
