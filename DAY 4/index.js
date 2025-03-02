@@ -1,8 +1,11 @@
-let condicao = false;
-let idade = 2 != "5";
-if (condicao == true) {
-  let scope = "DentroEscopo";
-  document.write("Entrou no IF");
-} else {
-  document.write("Entrou no Else");
+let Hungry = prompt("Are you hungry");
+let Money = prompt("Do you have money");
+let OpenRestaurant = prompt("is the restaurant open?");
+
+if (Hungry === "Yes" || Money === "No") {
+  document.write("Dinner will be at home today!");
+} else if (Hungry === "yes" && Money === "yes" && OpenRestaurant === "no") {
+  document.write("Order a Delivery");
+} else if (Hungry === "yes" && Money === "yes" && OpenRestaurant === "yes") {
+  document.write("Today dinner will be at your favorite restaurant");
 }
