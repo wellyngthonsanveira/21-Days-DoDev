@@ -4,7 +4,6 @@ let note7Woman = 0;
 let man = 0;
 let woman = 0;
 let notes = 0;
-let HighestGrade = 0;
 
 while (register) {
   let NoteCurrentStudent = Number(prompt("enter the current student's grade"));
