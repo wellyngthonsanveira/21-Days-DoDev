@@ -22,11 +22,11 @@ salary = salary + salary * tax;
 let IncreaseSalary = salary;
 console.log(IncreaseSalary);
 
-let hiredStatusNextYear = prompt("HIRED or NOTHIRED in the next year");
+let hiredStatusNextYear = prompt("Is he HIRED in the next year?");
 
 while (hiredStatusNextYear == "h") {
   CurrentYear = CurrentYear + 1;
   tax *= 2;
   console.log(CurrentYear + " : " + (salary + salary * tax));
-  hiredStatusNextYear = prompt("HIRED or NOTHIRED in the next year");
+  hiredStatusNextYear = prompt("Is he HIRED in the next year?");
 }
