@@ -17,6 +17,7 @@ do {
   if (Operation1 == 1) {
     if (value > BankBalance || value <= 0) {
       alert("lower balance or negative deposits are not allowed");
+      continue;
     }
     BankBalance = BankBalance - value;
     otherOperation1 = Number(
